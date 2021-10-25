@@ -1,0 +1,12 @@
+.titleglobal{
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 12px 0px
+
+}
+.texttitleglobal {
+    letter-spacing: 2px;
+    color: #e67e26;
+    font-size: 34px;
+}

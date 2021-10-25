@@ -1,0 +1,39 @@
+
+/* body{
+    background: yellow;
+}
+
+@media only screen and (min-width: 991px) {
+    body{
+        background: blue !important;
+    }
+
+}
+
+@media only screen and (min-width: 480px) {
+    body{
+        background: red !important;
+    }
+
+} */
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f0efe7;
+}
+.space {
+    height: 150px;
+    width: 100%;
+    
+}
+.spaceother {
+    background: #261b21;
+    height: 88px;
+    width: 100%;
+    box-shadow: 0 0px 30px 0 rgb(12 12 20 / 100%);
+    margin-bottom: 80px;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #f4e9d7 !important;
+}

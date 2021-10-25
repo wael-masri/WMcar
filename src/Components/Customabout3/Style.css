@@ -1,0 +1,25 @@
+.containerabout3{
+    width: 100%;
+    background: #fff;
+}
+.h3about3 {
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 700;
+    color:#0c0c14 ;
+    margin: 40px 0px;
+}
+.titlebox{
+    font-size: 30px;
+    font-weight: bold;
+    color: #92847b;
+    margin-top: 10px;
+
+}
+.subtitleabout3{
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.divabout3 {
+    padding-bottom: 50px;
+}

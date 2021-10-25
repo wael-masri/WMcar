@@ -1,0 +1,19 @@
+.containerabout4 {
+    width: 100%;
+    background: #fff;
+}
+.divabout4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleabout4{
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #e67e26;
+}
+.textabout4 {
+    letter-spacing: 1px;
+    color: #48414c;
+}

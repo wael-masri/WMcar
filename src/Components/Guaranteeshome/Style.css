@@ -1,0 +1,40 @@
+.containergua {
+  
+   
+    background: #0c0c14;
+   
+    border-radius: 8px;
+
+}
+.titlegua {
+    margin: 39px 0px;
+
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.color{
+    color: #fff;
+}
+.colorsub{
+    color: #e67e26;
+}
+.btn_gua{
+ width: 200px;
+ padding: 12px;
+ border: 1px solid #fff;
+ background: transparent;
+ color: #fff;
+ font-weight: 600;
+ border-radius: 4px;
+ margin: 15px 0px; 
+ 
+ 
+}
+.btn_gua:hover{
+   
+    border: 1px solid #e67e26;
+    background: transparent;
+    color: #e67e26;
+    
+   }

@@ -1,0 +1,19 @@
+.containersearch {
+    width: 100%;
+    background: #fff;
+}
+.boxtextsearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titlesearchcar {
+    color:#fbd077;
+    letter-spacing: 2px;
+}
+.textsearchcar {
+    letter-spacing: 1px;
+    color: #111111;
+    padding: 0 15px;
+}

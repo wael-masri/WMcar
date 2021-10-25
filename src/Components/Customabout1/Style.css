@@ -1,0 +1,31 @@
+.container_about {
+  background: #fff;
+  width: 100%;
+}
+.titleabout1 {
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin: 34px 0px;
+  color: #0c0c14;
+}
+.textabout1 {
+  letter-spacing: 1px;
+  color: #48414c;
+}
+.divabout12 {
+  margin: 30px 0px;
+}
+.pabout12 {
+  width: 100%;
+ text-align: center;
+  
+  color: #48414c;
+  margin-top: 20px;
+
+  display: flex;
+
+  margin: 15px auto;
+  align-items: center;
+    justify-content: center;
+}

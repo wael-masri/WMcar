@@ -1,0 +1,58 @@
+.headerhome::before {
+  content: "";
+  background-image: url("../../Images/perf.gif");
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+.headerhome {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+.customheadertitle {
+  position: relative;
+  color: #e67e26;
+  
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-align: center;
+ 
+}
+.btnheadrhome {
+    position: relative;
+    margin: 20px 0;
+    background: transparent;
+    color: #fbd077 ;
+    border: 1px solid #f4e9d7;
+    width: 200px;
+    padding:12px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    font-weight: 500;
+  
+}
+.btnheadrhome:hover {
+    position: relative;
+    margin: 20px 0;
+    background: transparent;
+    color: #e67e26 ;
+    border: 1px solid #e67e26;
+    width: 200px;
+    padding:12px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  
+}

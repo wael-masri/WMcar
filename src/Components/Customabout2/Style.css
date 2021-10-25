@@ -1,0 +1,50 @@
+
+.containerdivabout2 {
+    padding-bottom: 60px;
+}
+
+.divabout2{
+    background:#0c0c14 ;
+    margin: 20px 0px;
+    border-radius: 5px;
+   
+}
+.h3about2{
+color:#e67e26 ;
+font-size: 38px;
+font-weight: 800;
+margin: 20px;
+letter-spacing: 2px;
+}
+.h4coreabout2 {
+    color:#f4e9d7 ;
+    margin: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+} 
+.liabout2 {
+    color:#f4e9d7 ;
+    letter-spacing: 1px;
+    
+} 
+
+.divimgabout2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigdivabout2 {
+    margin: 30px 0px;
+}
+
+.bigtitleabout2 {
+    font-weight: 700;
+    font-size: 33px;
+    margin-top: 50px;
+
+
+}
+.textabout2 {
+    letter-spacing: 1px;
+    color:#48414c ;
+}
