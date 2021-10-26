@@ -19,6 +19,7 @@ function App() {
         <Route path="/gallery" component={Gallery} />
         <Route path="/contact" component={Contact} />
       </Switch>
+      
       <Footer />
     </BrowserRouter>
   );
