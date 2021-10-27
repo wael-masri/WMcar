@@ -9,17 +9,21 @@ import Gallery from "./Container/Gallery";
 import Contact from "./Container/Contact";
 import Navbar from "./Components/Navbar/Index";
 import Footer from "./Components/Footer/Index";
+import Restorscrolltotop from "./Components/Restorscrolltotop/Index";
+import Scrolltotop from "./Components/Scrolltotop/Index";
 function App() {
   return (
     <BrowserRouter>
-       <Navbar />
+      <Restorscrolltotop />
+      <Navbar />
+      <Scrolltotop />
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/about" component={About} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/contact" component={Contact} />
       </Switch>
-      
+
       <Footer />
     </BrowserRouter>
   );

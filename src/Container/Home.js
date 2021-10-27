@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useRef,useEffect} from "react";
 import Guaranteeshome from "../Components/Guaranteeshome/Index";
 import Headerhome from "../Components/Headerhome/Index";
 import Photocarshome from "../Components/Photocarshome/Index";
@@ -7,7 +7,11 @@ import Bestofferhome from "../Components/Bestofferhome/Index";
 
 import Title from "../Components/Title/Index";
 import "./Styles.css";
+
 const Home = () => {
+  
+  
+  
   return (
     <>
       <Headerhome />

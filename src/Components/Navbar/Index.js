@@ -5,24 +5,25 @@ import logo from "../../Images/log.png";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
-
-
-
   const changeBackground = () => {
-   if(window.scrollY >= 80){
-     setNavbar(true);
-
-   }else{
-     setNavbar(false);
-   }
-  }
-  window.addEventListener('scroll',changeBackground);
-
-
-
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener("scroll", changeBackground);
 
   return (
-    <nav  className={navbar ? "navbar navbar-expand-lg navbar_custom active_navbar_custom " : "navbar navbar-expand-lg navbar_custom"}>
+    <nav
+    id="navitems"
+      className={
+        navbar
+          ? "navbar navbar-expand-lg navbar_custom active_navbar_custom "
+          : "navbar navbar-expand-lg navbar_custom"
+      }
+      
+    >
       <div className="container-fluid ">
         <img src={logo} style={{ width: "66px" }} />
         <button

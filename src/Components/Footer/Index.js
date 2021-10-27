@@ -1,18 +1,43 @@
 import React, { useState, useEffect } from "react";
+import EmailIcon from "@mui/icons-material/Email";
 import "./Style.css";
 import { Link } from "react-router-dom";
 
-
-
 const Footer = () => {
-  
-  
-
-  
-
   return (
     <footer className="site-footer">
       <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-12 text-center divsub">
+            <h4 className="h3sub">
+              Be the first to know about new arrivals, sales & promos!
+            </h4>
+            <div
+              style={{
+                width: "100%",
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <div className="form">
+                <input
+                  type="email"
+                  id="email"
+                  className="form_input"
+                  placeholder=" "
+                />
+                <label htmlFor="email" className="form_label">
+                  Subscribe
+                </label>
+              </div>
+              <div className="submitsubscribe">
+              <EmailIcon className="iconsubsub"/>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="row">
           <div className=" col-md-4">
             <h6>About Us</h6>
@@ -21,102 +46,113 @@ const Footer = () => {
               Gulf market, 85 stores across 9 countries (UAE, Kuwait, Saudi
               Arabia, Egypt, Lebanon, Qatar etc.) and an online presence.
             </p>
-            <hr />
-            <div className="info_footer">
-             
-              Lebanon,tripoli-mina
-            </div>
-            <div className="info_footer">
-               00961-71620485
-            </div>
-            <div className="info_footer">
-              
-              masri_1997@hotmail.com
-            </div>
           </div>
 
           <div className="col-md-2">
-            <h6>Categories</h6>
+            <h6>Models</h6>
             <ul className="footer-links">
-            <li className="listitem_footer" >bosss</li>
+              <li className="listitem_footer">
+                <Link
+                  to="#"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  BMW
+                </Link>
+              </li>
 
-            <li className="listitem_footer" >ssss</li>
-            <li className="listitem_footer" >ssss</li>
-            <li className="listitem_footer" >ssss</li>
-           
+              <li className="listitem_footer">
+                <Link
+                  to="#"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Mercedes
+                </Link>
+              </li>
+              <li className="listitem_footer">
+                <Link
+                  to="#"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Opel
+                </Link>
+              </li>
+              <li className="listitem_footer">
+                <Link
+                  to="#"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Jeep
+                </Link>
+              </li>
             </ul>
           </div>
 
-          <div className=" col-md-2">
+          <div className=" col-md-3">
             <h6>legal</h6>
             <ul className="footer-links">
               <li className="listitem_footer">
-                <Link to="#">
-                  
+                <Link
+                  to="#"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
                   Privacy & Policy
                 </Link>
               </li>
               <li className="listitem_footer">
-                <Link to="#">
-                  
+                <Link
+                  to="#"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
                   Payment Methods
                 </Link>
               </li>
               <li className="listitem_footer">
-                <Link to="#">
-                 
+                <Link
+                  to="#"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
                   Delivery
                 </Link>
               </li>
               <li className="listitem_footer">
-                <Link to="#">
-                 
+                <Link
+                  to="#"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
                   Return & Exchanges
                 </Link>
               </li>
-              {/* <li className="listitem_footer"><Link to="/loginadmin"><ArrowRightAltIcon />For Admin</Link></li> */}
             </ul>
           </div>
-          <div className=" col-md-4">
+          <div className=" col-md-3">
             <h6>Quick Links</h6>
             <ul className="footer-links">
               <li className="listitem_footer">
-                <Link to="/about">
-                 
+                <Link
+                  to="/about"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
                   About Us
                 </Link>
               </li>
               <li className="listitem_footer">
-                <Link to="/brands/all">
-                 
-                  Brands
+                <Link
+                  to="/gallery"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Gallery
                 </Link>
               </li>
 
               <li className="listitem_footer">
-                <Link to="/contact">
-                  
+                <Link
+                  to="/contact"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
                   Contact Us
                 </Link>
               </li>
             </ul>
-            <div className="div_footer_sub">
-              <label>
-                Be the first to know about new arrivals, sales & promos!
-              </label>
-              <form >
-                <input
-                  id="standard-basic"
-                  label="Subscribe"
-                  
-                  required
-                />
-                <button className="btn_sub" type="submit">
-                 ssss
-                </button>
-              </form>
-              <img alt="payment"  style={{ margin: "10px" }} />
-            </div>
           </div>
         </div>
         <hr />

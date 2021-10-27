@@ -3,7 +3,7 @@ import Title from "../Components/Title/Index"
 
 const Gallery = () => {
     return (<>
-        <div className="spaceother"></div>
+        <div className="Seperatorheader"></div>
         <Title title="Our Gallery" subtitle="alway best ever" />
        <Customgallery />
         </>

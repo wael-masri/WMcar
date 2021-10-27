@@ -7,13 +7,14 @@
     background:#0c0c14 ;
     margin: 20px 0px;
     border-radius: 5px;
+    height: 300px;
    
 }
 .h3about2{
 color:#e67e26 ;
-font-size: 38px;
+font-size: 45px;
 font-weight: 800;
-margin: 20px;
+margin: 0px 12px;
 letter-spacing: 2px;
 }
 .h4coreabout2 {
@@ -25,6 +26,7 @@ letter-spacing: 2px;
 .liabout2 {
     color:#f4e9d7 ;
     letter-spacing: 1px;
+    list-style: none;
     
 } 
 
@@ -47,4 +49,19 @@ letter-spacing: 2px;
 .textabout2 {
     letter-spacing: 1px;
     color:#48414c ;
+}
+
+.div1aboput2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div2aboput2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }

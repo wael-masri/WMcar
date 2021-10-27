@@ -1,5 +1,9 @@
 import React from "react";
 import './Style.css';
+import GppGoodIcon from '@mui/icons-material/GppGood';
+import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import FilterHdrIcon from '@mui/icons-material/FilterHdr';
 import about1 from "../../Images/about1.jpg";
 import about2 from "../../Images/about2.jpg";
 const Customabout2 = () => {
@@ -11,17 +15,17 @@ const Customabout2 = () => {
         </div>
       </div>
       <div className="row divabout2">
-        <div className="col-md-6">
+        <div className="col-md-6 div1aboput2">
           {" "}
           <h2 className="h3about2">Above all, we care about people.</h2>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 div2aboput2">
           <h4 className="h4coreabout2">Our core values</h4>
           <ul>
-            <li className="liabout2">Do the right thing</li>
-            <li className="liabout2">Put people first</li>
-            <li className="liabout2">Win together</li>
-            <li className="liabout2">Go for greatness</li>
+            <li className="liabout2"><GppGoodIcon/>  Do the right thing</li>
+            <li className="liabout2"><SupervisorAccountIcon/>  Put people first</li>
+            <li className="liabout2"><CheckCircleOutlineIcon/>  Win together</li>
+            <li className="liabout2"><FilterHdrIcon/>  Go for greatness</li>
           </ul>
         </div>
       </div>
